@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Todo-Cards/static/css/main.df5ed052.css",
+    "main.js": "/Todo-Cards/static/js/main.bde3ba3f.js",
+    "static/js/787.2ce58cdf.chunk.js": "/Todo-Cards/static/js/787.2ce58cdf.chunk.js",
+    "index.html": "/Todo-Cards/index.html",
+    "main.df5ed052.css.map": "/Todo-Cards/static/css/main.df5ed052.css.map",
+    "main.bde3ba3f.js.map": "/Todo-Cards/static/js/main.bde3ba3f.js.map",
+    "787.2ce58cdf.chunk.js.map": "/Todo-Cards/static/js/787.2ce58cdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df5ed052.css",
+    "static/js/main.bde3ba3f.js"
+  ]
+}
