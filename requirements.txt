@@ -30,7 +30,7 @@ google-auth
 google-auth-oauthlib
 google-pasta
 grpcio
-gunicorn
+gunicorn==19.7.1
 h11
 h5py
 idna
