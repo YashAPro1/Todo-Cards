@@ -3,6 +3,7 @@
 set -o errexit
 echo $PATH
 export PATH=$PATH:/opt/render/.local/bin
+export PATH=$PATH:/usr/local/python3/bin
 pip install -r requirements.txt
 
 echo "Hi"
