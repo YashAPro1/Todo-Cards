@@ -13,4 +13,5 @@ echo $PATH
 
 python manage.py collectstatic --no-input
 python manage.py migrate
-cd /opt/render/.local/bin
+cd /usr/local/python3/bin
+gunicorn app:app
