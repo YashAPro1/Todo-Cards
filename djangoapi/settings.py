@@ -137,9 +137,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-if not DEBUG:    # Tell Django to copy statics to the `staticfiles` directory
+# if not DEBUG:    # Tell Django to copy statics to the `staticfiles` directory
     
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#     STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # CORS_ALLOWED_ORIGINS = [
 #     '*'
 #     # "http://localhost:3000"
