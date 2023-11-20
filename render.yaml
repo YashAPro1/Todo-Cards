@@ -6,7 +6,7 @@ databases:
 services:
   - type: web
     name: djangoapi
-    runtime: python
+    runtime: python3
     buildCommand: "./build.sh"
     startCommand: "gunicorn djangoapi.wsgi:application"
     envVars:
