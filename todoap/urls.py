@@ -27,6 +27,6 @@ urlpatterns = [
 
     # Auth
 
-    path('login/',views.Login,name="Login"),
-    path('signup/',views.signUp,name="signup"),
+    path('login',views.Login,name="Login"),
+    path('signup',views.signUp,name="signup"),
 ]
